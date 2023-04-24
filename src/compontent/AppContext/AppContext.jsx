@@ -67,15 +67,7 @@ const AppContext = ({ children }) => {
       }
     };
   
-    const sendPasswordToUser = async (email) => {
-      try {
-        await sendPasswordResetEmail(auth, email);
-        alert("New password send to your email");
-      } catch (err) {
-        alert(err.message);
-        console.log(err.message);
-      }
-    };
+  
   
     const signOutUser = async () => {
         
@@ -114,7 +106,7 @@ const AppContext = ({ children }) => {
       signInWithGoogle: signInWithGoogle,
       loginWithEmailAndPassword: loginWithEmailAndPassword,
       registerWithEmailAndPassword: registerWithEmailAndPassword,
-      sendPasswordToUser: sendPasswordToUser,
+     
       signOutUser: signOutUser,
       user: user,
       userData: userData,

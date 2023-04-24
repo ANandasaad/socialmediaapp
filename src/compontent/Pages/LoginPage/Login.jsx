@@ -125,11 +125,7 @@ const Login = () => {
           <Button variant="gradient" fullWidth className="mb-4" onClick={signInWithGoogle}>
             Sign In with Google
           </Button>
-          <Link>
-            <p className="ml-1 font-roboto text-sm text-blue-500 text-center flex justify-center">
-              Reset the password
-            </p>
-          </Link>
+        
 
           <div className="mt-6 flex items-center font-roboto text-base justify-center">
             Don't have an account?

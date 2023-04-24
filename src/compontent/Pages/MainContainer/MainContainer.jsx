@@ -236,7 +236,7 @@ const MainContainer = () => {
                 <PostCards
                   key={index}
                   logo={post.logo}
-                  id={post.documentId}
+                  id={post?.documentId}
                   uid={post?.uid}
                   name={post.name}
                   email={post.email}
